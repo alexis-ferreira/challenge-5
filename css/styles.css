@@ -27,6 +27,8 @@ main>.container-left
 main>.container-left .paragraph
 {
     position: relative;
+
+    z-index: 2;
 }
 
 main .container-left .author
