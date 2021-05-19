@@ -5,8 +5,6 @@ let slider = ["./images/image-tanya.jpg", "./images/image-john.jpg"]
 
 let img = document.getElementById('imgSlider');
     console.log(img);
-let imgSrc = img.getAttribute('src');
-    console.log(imgSrc);
 
 let btnPreview = document.getElementById('preview-img');
 // console.log(btnPreview);
@@ -16,11 +14,12 @@ let btnNext = document.getElementById('next-img');
 
 function changeSlide(){
     
-    console.log(imgSrc);
-    imgSrc == slider[0] ? img.setAttribute('src',slider[1]) : img.setAttribute('src',slider[0])
-    console.log(imgSrc);
+    // console.log(imgSrc);
+    img.getAttribute('src') == slider[0] ? img.setAttribute('src',slider[1]) : img.setAttribute('src',slider[0])
+    console.log(img.getAttribute('src'));
     
     
 }
 
 btnPreview.addEventListener('click',changeSlide);
+btnNext.addEventListener('click',changeSlide);
