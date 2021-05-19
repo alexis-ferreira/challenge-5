@@ -22,6 +22,11 @@ main
 main>.container-left
 {
     width: 660px;
+
+    background-image: url(../images/pattern-curve.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 730px;
+    background-size: 280px;
 }
 
 main>.container-left .paragraph
@@ -54,10 +59,6 @@ main .container-left .author
 {
     padding-left: 160px;
     padding-bottom: 235px;
-
-    background-image: url(../images/pattern-curve.svg);
-    background-repeat: no-repeat;
-    background-position: 0 110px;
 
     display: flex;
 }
@@ -209,6 +210,8 @@ main .container-right .slider-control>#next-img
     main>.container-left {
         width: 100%;
 
+        background-position: 0 272px;
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -236,13 +239,8 @@ main .container-right .slider-control>#next-img
     }
 
     main .container-left .author {
-        padding: 0 149px;
+        padding-left: 0;
         padding-bottom: 80px;
-
-        background-image: url(../images/pattern-curve.svg);
-        background-repeat: no-repeat;
-        background-position: 0px 72px;
-        background-size: 280px;
 
         width: 165px;;
 
@@ -352,14 +350,8 @@ main .container-right .slider-control>#next-img
 @media screen AND (max-width: 375px){
     
     main .container-left .author {
-
-        padding: 0 130px;
+        padding-left: 0;
         padding-bottom: 80px;
-
-        background-image: url(../images/pattern-curve.svg);
-        background-repeat: no-repeat;
-        background-position: 0px 72px;
-        background-size: 280px;
 
         width: 115px;
         
