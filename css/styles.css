@@ -110,6 +110,8 @@ main .container-right .slider>img
     border-radius: 5px;
 
     box-shadow: 0px 40px 40px -25px rgba(0, 0, 0, 0.329);
+
+    margin-left: 70px;
 }
 
 main .container-right .slider-control
@@ -165,9 +167,15 @@ main .container-right .slider-control>#next-img
 
 @media screen AND (min-width: 1450px) {
 
+    body
+    {
+        display: flex;
+        justify-content: center;
+    }
+
     main
     {
-        width: 100%;
+        width: 1440px;
 
         display: flex;
         justify-content: center;
@@ -254,6 +262,7 @@ main .container-right .slider-control>#next-img
         border-radius: 5px;
         box-shadow: 0px 40px 40px -25px rgb(0 0 0 / 33%);
         width: 255px;
+        margin: 0
     }
 
     main .container-right .slider-control {
